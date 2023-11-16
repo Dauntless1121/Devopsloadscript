@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo -i
+sudo su -
 sudo apt-get update
 apt-get install ca-certificates wget curl apt-transport-https lsb-release gnupg
 mkdir -p /etc/apt/keyrings
