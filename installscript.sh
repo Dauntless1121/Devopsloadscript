@@ -1,5 +1,6 @@
 #!/bin/bash
-apt-get update
+sudo -i
+sudo apt-get update
 apt-get install ca-certificates wget curl apt-transport-https lsb-release gnupg
 mkdir -p /etc/apt/keyrings
 curl -sLS https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | tee /etc/apt/keyrings/microsoft.gpg > /dev/null
